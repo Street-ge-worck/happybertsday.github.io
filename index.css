@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.dangeon{
+    width: inherit;
+    height: inherit;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.buttonDangeon{
+    width: 100px;
+    height: 40px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    background-color: aquamarine;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.FirstBlock{
+    width: 90%;
+    height: 450px;
+    background-image: url(immages/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hiddenImages{
+    display: none;
+}
+.Click{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    width: 90%;
+    height: 450px;
+    
+}
+.immage2{
+    width: 90%;
+    height: 450px;
+    background-image: url(immages/приветПупсик.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bacgroundSecondImmage{
+    background-color: rgb(157, 102, 203);
+    width: 90%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+    border-radius: 10px;
+}
+#slider-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    height: 100vh;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#slider{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.slider-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.arrow{
+    width: 40px;
+    height: 90px;
+}
+.arrow-left{
+    transform: rotate(180deg);
+}
+.block{
+    display: block;
+}
+.paginetion-circle{
+    width: 25px;
+    height: 25px;
+    border: 2px solid deepskyblue;
+    border-radius: 50%;
+}
+.active{
+    background-color: purple;
+}
+#bottom{
+    display: flex;
+    column-gap: 25px;
+}
+.backGround3{
+    width: 90%;
+    height: auto;
+    background-color: rgb(31, 92, 94);
+    border-radius: 10px;
+}
+.frengSergay{
+    width: 100%;
+    height: 270px;
+    background-image: url(immages/frendSerGAY.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+.BCAnime{
+    width: 90%;
+    height: auto;
+    background-color: rgb(19, 193, 215);
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.block4{
+    margin-top: 100px;
+}
+.animeSergay{
+    width: 100%;
+    height: 250px;
+    background-image: url(immages/sergayAnime.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px;
+}
+.phone{
+    width: 70px;
+    height: 70px;
+    background-image: url(immages/phone.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+.romaMessage{
+    width: 90%;
+    height: 200px;
+    background-image: url(immages/message.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+footer{
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
